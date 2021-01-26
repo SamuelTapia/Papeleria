@@ -1,0 +1,574 @@
+body {
+  font-family: 'Quicksand', sans-serif !important;
+}
+.jumbotron{
+  font-family: 'Sniglet', cursive !important;
+  margin-bottom: 0px !important;
+  text-align: center;
+  background-image: url("https://1.bp.blogspot.com/-0REoKLo7ees/WrTxb0yL9jI/AAAAAAAAFUY/SBL1-Rk7oOMPx6QHBLAp_3k0ky925QvigCLcBGAs/s1600/854525564_preview_aep4k.png");
+  color: white;
+  border-radius: 0px !important;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+}
+.jumbotron span p{
+  margin-bottom:10px;
+  font-size: 35px;
+}
+.navbar{
+  height: 80px;
+  font-size: 17px;
+}
+.navbar li{
+  margin-right: 17px;
+  margin-left: 17px;
+}
+
+.btn-outline-light{
+  font-size: 50px;
+}
+#alumno .container{
+  margin: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#alumno .row .col-lg{
+  margin: 20px;
+  text-align: center;
+  padding: 40px;
+}
+#objetivo{
+  background-color: #C6D8FF;
+}
+#conceptos{
+  background-color: #f3e0ec;
+}
+.alert{
+  margin-bottom: 0px !important;
+  padding-left: 80px !important;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.alert span{
+  padding-left: 15px;
+}
+.alert button span{
+  padding-left: 0;
+  margin-right: 60px;
+}
+#modalGrafo span{
+  padding-left: 150px;
+}
+#modalVertice span{
+  padding-left: 125px;
+}
+#modalEjemplo img{
+  margin-left: 45px;
+}
+#grapha{
+  color: #65b1a2;
+  padding-left: 75px;
+}
+#graphb{
+  color: #65b1a2;
+  padding-left: 103px;
+}
+#grado{
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+}
+#grado h1{
+  font-family: 'Sniglet', cursive;
+  text-align: center;
+}
+#vtc h2, #gfo h2{
+    color: white;
+    font-size: 40px;
+    font-family: 'Sniglet', cursive;
+    text-align: center;
+    padding-top: 10px;
+}
+#vtc, #gfo{
+  margin-top: 0px;
+  margin-bottom: 00px;
+  padding: 10px;
+}
+#vtc{
+  background-color: #65b1a2;
+  border-radius: 10px;
+  border: 2px solid #65b1a2;
+}
+#gradoVertice{
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #65b1a2;
+}
+#gradoVertice a{
+  font-family: 'Sniglet', cursive;
+  color: #65b1a2;
+  text-decoration: none;
+}
+#modalGradoVertice span{
+  font-family: 'Sniglet', cursive;
+  color: #648fb5;
+  letter-spacing: 2px;
+  font-size: 26px;
+}
+#modalGradoVertice .col-lg{
+  padding-top: 0px !important;
+}
+#modalGradoVertice .col-lg p{
+  text-align: center;
+}
+#modalGradoVertice .col-lg p span{
+  color: #65b1a2;
+}
+#modalGradoVertice .col-{
+  margin-left: 15px !important;
+  padding-top: 10px !important;
+}
+#ejGrado{
+  color: #648fb5;
+  font-family: 'Sniglet', cursive;
+  font-size: 24px;
+}
+#total{
+  font-family: 'Sniglet', cursive;
+  font-size: 26px;
+  text-align: center;
+  padding: 10px;
+}
+#doble{
+  letter-spacing: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0px !important;
+}
+#ejemplo{
+  margin-left: 150px;
+  margin-bottom: 20px;
+}
+#gfo{
+  background-color: #d64c92;
+  border-radius: 10px;
+  border: 2px solid #d64c92;
+}
+#gradoGrafo{
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #d64c92;
+}
+#teorema{
+  margin-top: 40px !important;
+  margin-bottom: 0px !important;
+}
+#teoTable{
+  margin-left: 180px;
+}
+#teoTable td{
+  padding: 20px;
+  color: #FFFFFF;
+  border: 4px solid #FFFFFF;
+  font-family: 'Sniglet', cursive;
+}
+#totalG{
+  background-color: #648fb5;
+}
+#equal1{
+  background-color: #d64c92;
+}
+#equal2{
+  background-color: #65b1a2;
+}
+.last{
+  margin-bottom: 60px;
+}
+#ejercicios{
+  background-color: #B9ED97;
+}
+#ejercicios hr{
+  border-color: #EE8434;
+}
+.pregunta{
+  text-align: justify;
+}
+.question{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.question span{
+  text-decoration: underline;
+  color: #29A55D;
+}
+.answer{
+  margin-bottom: 40px;
+  font-family: 'Sniglet', cursive;
+}
+.answer .col-lg{
+  margin-left: 150px;
+}
+.one{
+  color: #8963BA;
+}
+.two{
+  color: #29A55D;
+}
+.three{
+  color: #801A86;
+}
+#ejercicios .pregunta ul{
+  list-style: none;
+  margin-left: 150px;
+  margin-top: 20px;
+  line-height: 45px;
+}
+#ejercicios .pregunta table{
+  margin-top: 20px;
+  width: 270px;
+  background-color: #FFFFFF;
+  border: 2px solid #EE8434;
+  margin-left: 140px;
+  font-size: 22px;
+  text-align: center;
+  font-family: 'Sniglet', cursive;
+}
+#ejercicios .pregunta .answer table{
+  margin-left: 30px;
+  margin-top: 0px;
+}
+#ejercicios .pregunta table thead{
+  font-size: 20px;
+  letter-spacing: 0.6px;
+}
+.one table th{
+  border: 2px solid #8963BA !important;
+  color: #8963BA !important;
+}
+.one table td{
+  border: 2px solid #8963BA !important;
+}
+.two table th{
+  border: 2px solid #29A55D !important;
+  color: #29A55D !important;
+}
+.two table td{
+  border: 2px solid #29A55D !important;
+}
+.three table th{
+  border: 2px solid #801A86 !important;
+  color: #801A86 !important;
+}
+.three table td{
+  border: 2px solid #801A86 !important;
+}
+#imagenEjercicio h2{
+  text-align: center;
+}
+#ejercicios .pregunta table td{
+  border: 2px solid #EE8434;
+  padding: 1px;
+}
+#ejercicios .pregunta table th{
+  border: 2px solid #EE8434;
+  color: #EE8434;
+  padding: 1px;
+}
+#clasificacion{
+  background-color: #C3E5E1;
+}
+#clasificacion .row .col-md{
+  text-align: center;
+  margin-bottom: 40px;
+}
+#dirigido span{
+  color: #17B890;
+  font-size: 40px;
+  font-family: 'Sniglet', cursive;
+}
+#simple span{
+  color: #5F4BB6;
+  font-size: 40px;
+  font-family: 'Sniglet', cursive;
+}
+#completo span{
+  color: #9D8DF1;
+  font-size: 40px;
+  font-family: 'Sniglet', cursive;
+}
+#bipartito span{
+  color: #17B890;
+  font-size: 40px;
+  font-family: 'Sniglet', cursive;
+}
+#propiedades{
+  margin-left: 35px;
+}
+.propiedades{
+  list-style: none;
+  line-height: 50px;
+  margin-top:30px;
+}
+.propiedades img{
+  margin-bottom: 8px;
+}
+#subgrafo span{
+  color: #5F4BB6;
+  font-size: 40px;
+  font-family: 'Sniglet', cursive;
+}
+#isomorfo span{
+  color: #9D8DF1;
+  font-size: 40px;
+  font-family: 'Sniglet', cursive;
+}
+#etiquetado span{
+  color: #17B890;
+  font-size: 40px;
+  font-family: 'Sniglet', cursive;
+}
+#nulo span{
+  color: #5F4BB6;
+  font-size: 40px;
+  font-family: 'Sniglet', cursive;
+}
+#simetrico span{
+  color: #9D8DF1;
+  font-size: 40px;
+  font-family: 'Sniglet', cursive;
+}
+#representaciones{
+  background-color: #C7E8F3;
+}
+#representaciones .row .col-lg {
+    padding-top: 40px;
+    text-align: justify;
+}
+#representaciones p{
+  text-align: center;
+}
+#repre .col- img{
+  margin-top: 20px;
+}
+#repre .col-lg{
+  padding-left: 50px;
+}
+#NY{
+  font-family: 'Sniglet', cursive;
+  color: #FF9EC4;
+}
+#deportes{
+  font-family: 'Sniglet', cursive;
+  color: #3FC6C4;
+}
+#ciudad{
+  font-family: 'Sniglet', cursive;
+  color: #023C40;
+}
+#periodico h2{
+  color: #D79AEA;
+  font-family: 'Sniglet', cursive;
+  font-size: 40px;
+  text-align: center;
+}
+#matriz h2{
+  color: #3FC6C4;
+  font-family: 'Sniglet', cursive;
+  font-size: 40px;
+  text-align: center;
+}
+#redMundial h2{
+  color: #FF9EC4;
+  font-family: 'Sniglet', cursive;
+  font-size: 40px;
+  text-align: center;
+}
+footer{
+  text-align: center;
+  background-color: #f8f9fa;
+  height: 100px;
+}
+footer row{
+  width: 100%
+}
+#objetivo .container{
+  padding-bottom:;
+}
+.row .col-xl{
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Sniglet', cursive !important;
+}
+#conceptos .row .col-xl{
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Sniglet', cursive !important;
+}
+#clasificacion .row .col-xl{
+  margin-top: 60px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: 'Sniglet', cursive !important;
+}
+#objetivo .row .col-lg{
+  margin: 20px;
+  text-align: justify;
+  padding: 40px;
+  padding-top: 70px;
+  margin-bottom: 145px;
+}
+#objetivo .row .col-{
+  margin-bottom: 85px;
+}
+#conceptos .row .col-{
+  margin-left: 40px;
+}
+#conceptos .row .col-lg{
+  padding-top: 40px;
+  text-align: justify;
+}
+#modalGradoTotal .col-lg{
+  padding-top: 0px !important;
+  padding-left: 50px;
+  font-size: 22px;
+}
+#modalGradoTotal .col-lg span{
+  color: #65b1a2;
+  font-family: 'Sniglet', cursive !important;
+}
+#modalGradoTotal .col-md{
+  text-align: center;
+}
+#modalGradoTotal p{
+  text-align: center;
+  color: #648fb5;
+}
+#modalGradoTotal .col-md span{
+  color: #65b1a2;
+  font-family: 'Sniglet', cursive !important;
+}
+#modalGradoTotal .row{
+  margin-top: 20px !important;
+}
+#ejemploGrado{
+  margin-left: 150px;
+  margin-bottom: 0px;
+}
+#modalGradoTotal .modal-body{
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+#clasificacion .row .col-lg{
+  text-align: justify;
+}
+#conceptos .row .col-lg a{
+  text-decoration: none;
+  color: #d64c92;
+  font-weight: 600;
+}
+.modal-header{
+  background-color: #65b1a2;
+  color: white;
+  font-weight: bold;
+}
+.modal-footer button{
+  background-color: #65b1a2;
+  border-color: #65b1a2;
+}
+.modal-title{
+  margin: 0 auto;
+  font-family: 'Sniglet', cursive !important;
+}
+.modal-body{
+  margin: 10px;
+  text-align: justify;
+  font-size: 20px;
+}
+.modal-body span{
+  text-align: center;
+}
+.modal-body span img{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.modal-body a{
+  font-size:22px;
+  font-weight:bold;
+  font-family: 'Sniglet', cursive !important;
+}
+.col-md-12, .col-md{
+  margin: 20px;
+  text-align: justify;
+}
+#bibliografia{
+  background-color: #B3B7EE;
+}
+#bibliografia .col-md p{
+  font-size: 20px;
+}
+#bibliografia .col-md{
+  border-radius: 6px;
+  padding: 20px;
+  text-align: justify;
+  color: white;
+  border: 2px solid white;
+}
+#bibliografia .autor{
+  font-size: 30px !important;
+  text-align: center;
+  font-family: 'Sniglet', cursive !important;
+}
+#bibliografia .titulo{
+  text-align: center;
+}
+#ficha1, #ficha5, #ficha9{
+  background-color: #2AB7CA;
+}
+#ficha2, #ficha6, #ficha10{
+  background-color: #6457A6;
+}
+#ficha3, #ficha7{
+  background-color: #3C1642;
+}
+#ficha4, #ficha8{
+  background-color: #086375;
+}
+#alumno{
+  background-color: #E0EBFC;
+}
+#video{
+  background-color: #FCD874;
+}
+#konigsberg{
+  background-color: #DB222A;
+  border-radius: 30px;
+}
+#videoTitle h2{
+  text-align: center;
+  margin-bottom: 0px;
+}
+#video{
+  margin: 0 auto;
+}
+iframe{
+  width: 900px;
+  height: 850px;
+  margin-left: 120px;
+  margin-bottom: 20px;
+  border: none;
+  margin-top: 40px;
+}
+#software{
+  background-color: white;
+}
+#submit{
+  text-align: center;
+  background-color: #EE8434;
+  color: #FFFFFF;
+  border-radius: 4px;
+  border-color: #EE8434;
+  font-size: 22px;
+}
